@@ -1,0 +1,50 @@
+TypeScript Tutorial:
+--------------------
+1) Introduction
+
+2) Project SetUp
+
+3) Typing props -> Greet
+
+4) Basic props -> Greet, Person, PersonList
+
+5) Advance props -> Status, Heading, Oscar, OptionalGreet  
+
+6) Event Props (passing events such as onClick event and onChange event as props) -> Button, Input
+
+7) Style Props -> Container
+
+8) Prop Types and Tips -> Greet2, Person2, PersonList2, Person.types.ts (1.Destructuring props in function parameter 2. Keeping common type declarations such as PersonProps type in a separate file 'Person.types.ts' and exporting it and re-using).
+
+9) useState Hook -> LoggedIn
+
+10) useState future Value -> User
+
+11) useState Type Assertion => User2 (user.name & user.email can be used directly without ? optional, because we have
+    set useState initial value from null to '{} as AuthUser' using Type Assertion)
+
+12) useReducer Hook -> Counter
+
+13) useReducer Strict Action Types -> Counter2
+
+14) useContext Hook -> Theme, ThemeContext, Box, Box2
+
+15) useContext Future Value -> User, UserContext, User2
+
+16) useRef Hook -> DomRef,  MutableRef
+
+17) Class Component -> (Class Folder) ClassCounter
+
+18) Component prop -> (Auth Folder) Private, Profile, Login
+
+19) Generics props -> (Generics Folder) Lists.tsx
+
+20) Restricting props -> (Restriction Folder) RandomNumber.tsx
+
+21) Template Literals and Exclued -> (Template Literal folder) Toast.tsx
+
+22) Wrapping HTML Elements -> (Html Folder) CustomButton, CustomInput
+
+23)  Extracting a Components Prop Types -> (Html Folder) CustomComponent
+
+24) Polymorphic Components -> (Restrictions folder) Text.tsx
